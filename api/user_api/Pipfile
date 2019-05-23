@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mysqlclient = "*"
+requests = "*"
+sqlalchemy = "*"
+flask = "*"
+flask-cors = "*"
+flask-sqlalchemy = "*"
+flask-mysql = "*"
+pymysql = "*"
+pytz = "*"
+#flask-restful = "*"
+marshmallow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
